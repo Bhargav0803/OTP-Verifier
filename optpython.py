@@ -22,7 +22,7 @@ class otp_verifier(Tk):
 
     def Buttons(self):
         self.submitButtonImage=PhotoImage(file="submit.png")
-        self.submitButton=Buton(self,image=self.submitButtonImage,command=self.checkOTP,border=0)
+        self.submitButton=Button(self,image=self.submitButtonImage,command=self.checkOTP,border=0)
         self.submitButton.place(x=208,y=240)
 
 
